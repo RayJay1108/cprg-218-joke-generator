@@ -16,7 +16,7 @@ document.getElementById('programming').addEventListener('click', () => {
         document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
     })
 
-    document.getElementById('title').textContent = "A Random Programming Joke!"; 
+    document.getElementById('title').textContent = "A Random Programming Joke! 🖥️ "; 
 })
 
 // -----------> Misc Jokes <-----------//

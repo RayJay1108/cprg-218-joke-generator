@@ -1,5 +1,6 @@
 body {
     margin-top: 10em;
+    font-family: sans-serif;
 }
 
 header {
@@ -17,7 +18,7 @@ li {
 }
 
 p {
-    background-color: lightblue;
+    background-color: rgb(211, 228, 241);
     border: 0.5px solid black;
     padding: 2em;
     text-align: center;
@@ -28,4 +29,8 @@ p {
 button {
     padding: 1em;
     width: 100px;
+    background-color: rgb(101, 134, 179);
+    border: none;
+    border-radius: 8px;
+    color: white;
 }
