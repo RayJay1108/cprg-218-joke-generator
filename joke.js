@@ -44,3 +44,32 @@ document.getElementById('pun').addEventListener('click', () => {
 
     document.getElementById('title').textContent = "A Random Pun!"; 
 })
+
+// -----------> Spooky Jokes <-----------//
+
+document.getElementById('spooky').addEventListener('click', () => {
+    fetch('https://v2.jokeapi.dev/joke/Spooky?safe-mode')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
+    })
+
+    document.getElementById('title').textContent = "A Random Spooky Joke!"; 
+})
+
+// -----------> Christmas Jokes <-----------//
+
+document.getElementById('Christmas').addEventListener('click', () => {
+    fetch('https://v2.jokeapi.dev/joke/Christmas?safe-mode')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
+    })
+
+    document.getElementById('title').textContent = "A Random Christmas Joke!"; 
+})
+
+
+

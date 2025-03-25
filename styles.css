@@ -1,3 +1,7 @@
+body {
+    margin-top: 10em;
+}
+
 header {
     text-align: center;
 }
@@ -10,4 +14,18 @@ ul {
 
 li {
     margin: 1em;
+}
+
+p {
+    background-color: lightblue;
+    border: 0.5px solid black;
+    padding: 2em;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+}   
+
+button {
+    padding: 1em;
+    width: 100px;
 }
