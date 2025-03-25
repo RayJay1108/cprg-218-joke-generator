@@ -31,3 +31,16 @@ document.getElementById('misc').addEventListener('click', () => {
 
     document.getElementById('title').textContent = "A Random Misc Joke!"; 
 })
+
+// -----------> Pun Jokes <-----------//
+
+document.getElementById('pun').addEventListener('click', () => {
+    fetch('https://v2.jokeapi.dev/joke/Pun?safe-mode')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
+    })
+
+    document.getElementById('title').textContent = "A Random Pun!"; 
+})
