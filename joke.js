@@ -29,7 +29,7 @@ document.getElementById('misc').addEventListener('click', () => {
         document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
     })
 
-    document.getElementById('title').textContent = "A Random Misc Joke!"; 
+    document.getElementById('title').textContent = "A Random Misc Joke! 🎨 "; 
 })
 
 // -----------> Pun Jokes <-----------//
@@ -42,7 +42,7 @@ document.getElementById('pun').addEventListener('click', () => {
         document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
     })
 
-    document.getElementById('title').textContent = "A Random Pun!"; 
+    document.getElementById('title').textContent = "A Random Pun! 👴 "; 
 })
 
 // -----------> Spooky Jokes <-----------//
@@ -55,7 +55,7 @@ document.getElementById('spooky').addEventListener('click', () => {
         document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
     })
 
-    document.getElementById('title').textContent = "A Random Spooky Joke!"; 
+    document.getElementById('title').textContent = "A Random Spooky Joke! 👻 "; 
 })
 
 // -----------> Christmas Jokes <-----------//
@@ -68,7 +68,7 @@ document.getElementById('Christmas').addEventListener('click', () => {
         document.getElementById('joke').textContent = data.joke || data.setup +"..."+ data.delivery;
     })
 
-    document.getElementById('title').textContent = "A Random Christmas Joke!"; 
+    document.getElementById('title').textContent = "A Random Christmas Joke! 🎄 "; 
 })
 
 
