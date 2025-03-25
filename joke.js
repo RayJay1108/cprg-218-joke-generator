@@ -7,12 +7,11 @@ fetch('https://v2.jokeapi.dev/joke/Any?safe-mode')
     joke.textContent = data.joke;
 }); 
 
-programming.addEventListener ('click' () => {
+document.getElementById('programming').addEventListener('click', () => {
     fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
-
     .then(response => response.json())
-    .then( data => {
-        joke.textContent = data.joke;
+    .then(data => {
+        console.log(data);
+        
     })
-
 })
